@@ -1,0 +1,53 @@
+Player Board:
+- 2D Array Board
+- [
+   [],
+   [],
+   []
+]
+- Click on top of board and drop into bottom array that's free
+
+Players:
+- ID
+- Name
+
+Games Table:
+- Stores a board
+- Array of Players
+- Game ID
+- Game State (player 1 win, player 2 win, draw, in progress)
+
+Game Board:
+	- Game Board Object (key value pairs)
+		- 0(x): object
+			- 0(y): Player,
+		- 1(x): object
+			- 0(y): Player,
+		
+Game ID
+	- players: [],
+	- Game Board
+	- Game State
+		- in progress
+		- draw
+		- waiting
+		- winning player ID
+
+Game Chat:
+- Game ID	
+	- Message
+		- PLayer ID
+		- Text
+		- Timestamp
+		
+Leaderboard:
+- Array of player ID's
+- Add 1 to tally
+- Sort players highest to lowest total wins
+
+Matchmaking:
+- Player selects new game and is given a code - Subsequent players enter that code to join game
+- Any player selecting "start game" begins match
+
+
+** Google authentication **
